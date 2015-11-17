@@ -1,3 +1,4 @@
+var fs = require('fs');
 module.exports =  function(check_exists,cb){
   var err_result = []
   var i = 0;
