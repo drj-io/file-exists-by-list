@@ -1,0 +1,20 @@
+{
+  "name": "file-exists-by-list",
+  "version": "0.0.0",
+  "description": "Node.JS function to check to see if a list of files exists, from an array of paths.  Because I got sick of callback hell.",
+  "main": "file-exists-by-list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drj-io/file-exists-by-list.git"
+  },
+  "author": "David Jones <null@rackfx.com> (rackfx.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drj-io/file-exists-by-list/issues"
+  },
+  "keywords": "file exists, exists, files, array, list",
+  "homepage": "https://github.com/drj-io/file-exists-by-list"
+}
