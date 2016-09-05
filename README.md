@@ -9,7 +9,7 @@ npm install file-exists-by-list
 ```javascript
 var fileExistsByList = require("file-exists-by-list");
 
-var check_exists = [
+var f = [
   {
     name: 'app_path',
     file: '~/some/path.txt',
@@ -22,8 +22,8 @@ var check_exists = [
   }
 ];
 
-fileExistsByList(err){
+fileExistsByList(f, function(err){
   if (err) { console.log("fail!", err) }
   else { console.log("success!") }
-}
+});
 ```
